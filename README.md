@@ -21,6 +21,14 @@ A x86 Assembly implementation of Conway's game of life. The program reads the in
    gcc -m32 StandardInput.o -o game_of_life
 ```
 
+## Input Format
+
+- Number of lines
+- Number of collums per line
+- Number of initial living cells
+- Living cell coordinates
+- Number of desired generations
+
 ## Licence
 
 GPL3
